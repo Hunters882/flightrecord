@@ -1,8 +1,9 @@
-import express from "express";
-import cors from "cors";
-import Amadeus from "amadeus";
-import dotenv from "dotenv";
+const express = require("express");
+const cors = require("cors");
+const Amadeus = require("amadeus");
+const dotenv = require("dotenv");
 dotenv.config();
+
 
 const app = express();
 app.use(cors()); // allow React to connect
